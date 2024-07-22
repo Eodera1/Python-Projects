@@ -86,7 +86,7 @@ def play(dim_size=10, num_bombs= 10):
     board = Board(dim_size, num_bombs)
 def dig(self, row, col):
     # dig that location!
-    # return True if successful dig                                     
+    # return True if successful dig                                      
     # Step 2: show the user the board and ask for where they want to dig
     # Step 3a: if location is a bomb, show game over message
     # Step 3b: if location is not a bomb, dig recursively untl each square is at least next to a bomb
